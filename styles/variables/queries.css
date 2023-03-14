@@ -1,0 +1,39 @@
+/* Enable light variant of the default color theme or force light variant of the active theme if set explicitly by the user */
+body.light {
+    /* Color palette for Light theme */
+    --primary-a-1-default: var(--primary-b-1);
+    --primary-a-2-default: var(--primary-b-2);
+    --primary-b-1-default: var(--primary-a-1);
+    --primary-b-2-default: var(--primary-a-2);
+
+    /* Font weights for Light theme */
+    --font-weight-1: var(--font-weight-default-1);
+    --font-weight-2: var(--font-weight-default-2);
+    --font-weight-3: var(--font-weight-default-3);
+    --font-weight-4: var(--font-weight-default-4);
+    --font-weight-5: var(--font-weight-default-5);
+    --font-weight-6: var(--font-weight-default-6);
+    --font-weight-7: var(--font-weight-default-7);
+    --font-weight-8: var(--font-weight-default-8);
+    --font-weight-9: var(--font-weight-default-9);
+}
+
+/* Enable dark variant of the active theme if set explicitly by the user */
+body.dark {
+    /* Color palette for Dark theme */
+    --primary-a-1-default: var(--primary-a-1);
+    --primary-a-2-default: var(--primary-a-2);
+    --primary-b-1-default: var(--primary-b-1);
+    --primary-b-2-default: var(--primary-b-2);
+
+    /* Font weights for Dark theme (slightly thinner than on light theme) */
+    --font-weight-1: var(--font-weight-default-1);
+    --font-weight-2: var(--font-weight-default-1);
+    --font-weight-3: var(--font-weight-default-2);
+    --font-weight-4: var(--font-weight-default-3);
+    --font-weight-5: var(--font-weight-default-4);
+    --font-weight-6: var(--font-weight-default-5);
+    --font-weight-7: var(--font-weight-default-6);
+    --font-weight-8: var(--font-weight-default-7);
+    --font-weight-9: var(--font-weight-default-8);
+}

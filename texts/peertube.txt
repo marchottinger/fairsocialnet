@@ -1,0 +1,9 @@
+Peertube
+Partage de vidéo
+
+PeerTube est un média social et une plateforme de diffusion et de partage de vidéo en direct ou différé. Son objectif est de fournir une alternative aux plateformes centralisées telles que YouTube, Vimeo et plus récemment Twitch avec l'ajout du support de la diffusion en direct.
+
+
+
+
+En 2021, environ 80 000 utilisateurs utilisent chaque mois une instance PeerTube. L'ensemble accueille alors plus de 360 000 vidéos et diffuse près de 18 695 387 vues7 

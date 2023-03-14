@@ -1,0 +1,22 @@
+/* Enable dark variant of the active theme if set explicitly by the browsers preferences */
+body {
+    /* Color palette for Dark theme */
+    --primary-a-1-default: var(--primary-a-1);
+    --primary-a-2-default: var(--primary-a-2);
+    --primary-b-1-default: var(--primary-b-1);
+    --primary-b-2-default: var(--primary-b-2);
+
+    /* Enable vars for dark theme if set explicitly by the browsers preferences */
+    --font-weight-default-1: var(--font-weight-1);
+    --font-weight-default-2: var(--font-weight-1);
+    --font-weight-default-3: var(--font-weight-2);
+    --font-weight-default-4: var(--font-weight-3);
+    --font-weight-default-5: var(--font-weight-4);
+    --font-weight-default-6: var(--font-weight-5);
+    --font-weight-default-7: var(--font-weight-6);
+    --font-weight-default-8: var(--font-weight-7);
+    --font-weight-default-9: var(--font-weight-8);
+}
+body .light {
+    display: none;
+}

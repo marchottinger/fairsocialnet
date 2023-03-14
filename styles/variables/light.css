@@ -1,0 +1,22 @@
+/* Enable light variant of the default color theme or force light variant of the active theme if set explicitly by the user */
+body {
+    /* Color palette for Light theme */
+    --primary-a-1-default: var(--primary-b-1);
+    --primary-a-2-default: var(--primary-b-2);
+    --primary-b-1-default: var(--primary-a-1);
+    --primary-b-2-default: var(--primary-a-2);
+
+    /* Font weights for Light theme */
+    --font-weight-default-1: var(--font-weight-1);
+    --font-weight-default-2: var(--font-weight-2);
+    --font-weight-default-3: var(--font-weight-3);
+    --font-weight-default-4: var(--font-weight-4);
+    --font-weight-default-5: var(--font-weight-5);
+    --font-weight-default-6: var(--font-weight-6);
+    --font-weight-default-7: var(--font-weight-7);
+    --font-weight-default-8: var(--font-weight-8);
+    --font-weight-default-9: var(--font-weight-9);
+}
+body .dark {
+    display: none;
+}

@@ -1,0 +1,70 @@
+/* Available color themes */
+/* Green */
+body.argile {
+    --primary-a-1-hsl: 161deg 27% 18%;
+    --primary-a-1: hsl(var(--primary-a-1-hsl));
+    --primary-a-2-hsl: 161deg 26% 23%;
+    --primary-a-2: hsl(var(--primary-a-2-hsl));
+    --primary-b-1-hsl: 161deg 22% 87%;
+    --primary-b-1: hsl(var(--primary-b-1-hsl));
+    --primary-b-2-hsl: 161deg 23% 82%;
+    --primary-b-2: hsl(var(--primary-b-2-hsl));
+}
+/* Purple */
+body.plum {
+    --primary-a-1-hsl: 296deg 15% 20%;
+    --primary-a-1: hsl(var(--primary-a-1-hsl));
+    --primary-a-2-hsl: 296deg 16% 28%;
+    --primary-a-2: hsl(var(--primary-a-2-hsl));
+    --primary-b-1-hsl: 296deg 16% 89%;
+    --primary-b-1: hsl(var(--primary-b-1-hsl));
+    --primary-b-2-hsl: 296deg 16% 78%;
+    --primary-b-2: hsl(var(--primary-b-2-hsl));
+}
+/* Deep blue with a hint of purple */
+body.blueberry {
+    --primary-a-1-hsl: 229deg 27% 22%;
+    --primary-a-1: hsl(var(--primary-a-1-hsl));
+    --primary-a-2-hsl: 229deg 27% 31%;
+    --primary-a-2: hsl(var(--primary-a-2-hsl));
+    --primary-b-1-hsl: 229deg 30% 86%;
+    --primary-b-1: hsl(var(--primary-b-1-hsl));
+    --primary-b-2-hsl: 229deg 27% 78%;
+    --primary-b-2: hsl(var(--primary-b-2-hsl));
+}
+/* Sky blue - Default color theme */
+body, 
+body.sky { 
+    --primary-a-1-hsl: 216deg 42% 22%;
+    --primary-a-1: hsl(var(--primary-a-1-hsl));
+    --primary-a-2-hsl: 216deg 43% 31%;
+    --primary-a-2: hsl(var(--primary-a-2-hsl));
+    --primary-b-1-hsl: 216deg 37% 85%;
+    --primary-b-1: hsl(var(--primary-b-1-hsl));
+    --primary-b-2-hsl: 216deg 26% 78%;
+    --primary-b-2: hsl(var(--primary-b-2-hsl));
+}
+/* Deep Blue-green */
+body.abyss {
+    --primary-a-1-hsl: 199deg 38% 18%;
+    --primary-a-1: hsl(var(--primary-a-1-hsl));
+    --primary-a-2-hsl: 201deg 38% 26%;
+    --primary-a-2: hsl(var(--primary-a-2-hsl));
+    --primary-b-1-hsl: 200deg 22% 84%;
+    --primary-b-1: hsl(var(--primary-b-1-hsl));
+    --primary-b-2-hsl: 199deg 23% 78%;
+    --primary-b-2: hsl(var(--primary-b-2-hsl));
+}
+/* Global variables */
+body {
+     /* Font weight defaults */
+     --font-weight-1: 100;
+     --font-weight-2: 200;
+     --font-weight-3: 300;
+     --font-weight-4: 400;
+     --font-weight-5: 500;
+     --font-weight-6: 600;
+     --font-weight-7: 700;
+     --font-weight-8: 800;
+     --font-weight-9: 900;
+}
